@@ -1,2 +1,2 @@
-# Resume-2-ITW2
+# Resume-ITW
 ITW2, Adding an image and links to the web resume
