@@ -1,4 +1,7 @@
-:root {}
+:root {
+
+}
+/*body*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -14,17 +17,22 @@ h2 {
 h3 {
     color: ;
 }
+
+/*header styles*/
 #head {
     color: white;
     background-color: #2b292d;
     text-align: center;
     margin: 0px;
     padding: 10px;
-    border:10px solid rgb(86, 145, 67);
+    border:5px solid rgb(86, 145, 67);
 }
 .profile-pic {
     border-radius: 50%;
 }
+
+/*Main part of the Document*/
+/*left-part*/
 .doc-content {
     display:flex;
 }
@@ -45,6 +53,7 @@ nav {
     padding: 20px;
     border:5px solid rgb(85, 101, 193);
 }
+/*Right-part*/
 #right-part {
     background-color:#5a8ca57b;
     padding: 10px;
@@ -66,12 +75,14 @@ nav {
     border:2px solid rgb(85, 101, 193);
 }
 
+/*internals of the main*/
 ul{
     display: inline-block;
     list-style: square;
     margin-left: 25px;
 }
 
+/*footer*/
 .btn-back-to-top {
     background-color: #656565;
     text-align: center;
