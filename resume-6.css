@@ -125,6 +125,12 @@ ul{
 a {
     text-decoration: none
 }
+#footer-link{
+    color:aliceblue;
+}
+#footer-link:hover {
+    color:blue
+}
 a:link {
     color: rgb(40, 40, 129) ;
 }
