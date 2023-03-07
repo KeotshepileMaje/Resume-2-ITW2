@@ -113,6 +113,38 @@ ul{
 }
 
 /*footer*/
+
+/*Form*/
+h2.message-input{
+    text-align: center;
+}
+#send-message {
+    background-color: var(--color1);
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+}
+form {
+    background-color: var(--color5);
+    width: 80%;
+    max-width:500px;
+    border:  5px solid var(--color6);
+    margin: 5%;
+    padding:5px
+}
+input, textarea, select{ 
+    width: 100%;
+    background-color: ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+input#submit {
+    background-color: aqua;
+}
+/*btn-back-to-top*/
 #btn-back-to-top {
     background-color: var(--color1);
     text-align: center;
@@ -146,3 +178,4 @@ a:link#head{
     color: azure;
 }
 /*Links properties above*/
+

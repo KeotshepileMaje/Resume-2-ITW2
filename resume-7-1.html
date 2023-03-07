@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"> 
-        <link rel="stylesheet" href="resume-6.css">
+        <link rel="stylesheet" href="resume-7-1.css">
 <title>Keotshepile Maje's Resume</title>
     </head>
 
@@ -38,6 +38,7 @@
                 <li> 0769277970</li>
                 <!--facebook-->
                 <li><a href="https://www.facebook.com/keotshepile.maje/" target="_blank"> Facebook</a></li>
+                <li><a href="#send-message">Send-message</a></li>
             </ul>
                 </div>
         </div>
@@ -89,27 +90,52 @@
         </div>
         </div>
 
-
-        <footer id="btn-back-to-top">
-            <form target="_blank" action="https://formsubmit.co/keotshepilemaje@gmail.com" methods="POST" >
-            <input type="text">
-            <label>Full name</label>
-            <input>
-            <label>Email address</label>
-                
-            </form>
+        <footer>
+           
 
 
+            <div id="send-message">
+                <form action="https://formsubmit.co/keotshepilemaje@gmail.com" method="post">
+
+                    <h2 class="message-input">Your message</h2>
+
+                  <div class="message-input">
+                    <label for="name" >Your name:</label>
+                    <input type="text" name="name" id="name" min=3 max=30 placeholder="Your name/ Organisation" required>
+                  </div>
+    
+                  <div class="message-input">
+                    <label for="email" >Email Address:</label>
+                    <input type="email" name="email" id="" min=3 max=30 placeholder="address@gmail.com" prequired>
+                  </div>
+    
+                  <div class="message-input">
+                    <label for="" >Reason for contact:</label>
+                    <select required >
+                        <option >---Please Select---</option>
+                        <option value="recruiter">Recruiter</option>
+                        <option value="feedback on the web">Feedback on the web</option>
+                        <option value="others">Others</option>
+                    </select>
+                  </div>
+    
+                  <div class="message-input">
+                    <label for="message">Your message:</label>
+                  <textarea id="message"  placeholder="Write your message(Optional)"></textarea>
+                  </div>
+    
+                  <div class="message-input">
+                    <input type="submit" value="Submit" id="submit" required>
+
+                  </div>
+                </form>
+            </div>
+    
 
 
-
-
-
-
-
-
+            <div id="btn-back-to-top">
         <p><a id="footer-link" href="#head">SCROLL BACK TO TOP</a></p>
-
+        </div>
         </footer>
 
     </body>
