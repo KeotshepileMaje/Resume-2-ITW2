@@ -1,0 +1,181 @@
+:root {
+    --color1: #233241;
+    --color2: #31363e;
+    --color3: #677074;
+    --color4: #aac0b0;
+    --color5: #63776d;
+    --color6: #aacbbc;
+}
+/*body*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    border:10px solid var(--color1);
+}
+h2 {
+    color: ;
+}
+h3 {
+    color: ;
+}
+
+/*header styles*/
+#head {
+    color: white;
+    background-image: url(img/banner-area-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    border:4px solid var(--color1);
+}
+.profile-pic {
+    border-radius: 50%;  
+    width: 80%;
+}
+
+/*Main part of the Document*/
+.doc-content {
+    display:flex;
+}
+/*left-part*/
+#left-part {
+    background-color: var(--color3);
+    padding: 20px ;
+    margin-left: 0px ;
+    border: var(--color2)
+}
+nav {
+    background-color: var(--color4);
+    margin-top:10px;
+    padding:20px;
+    border:2px solid var(--color2);
+
+}
+#contact-details {
+    background-color: var(--color4);
+    margin-top: 10px;
+    padding: 20px;
+    border:2px solid var(--color2);
+}
+/*Right-part*/
+#right-part {
+    background-color:var(--color4);
+    padding: 10px;
+    border: 4px solid var(--color2);
+}
+#education {
+    margin-top: 5px;
+    padding: 10px;
+    border:2px solid var(--color2);
+}
+#qualification-1 {
+    margin-top: 5px;
+    padding: 10px;
+    border:1px solid var(--color5);
+}
+#qualification-2 {
+    margin-top: 5px;
+    padding: 10px;
+    border:1px solid var(--color5);
+}
+
+#experience  {
+    margin-top: 5px;
+    padding: 10px;
+    border:2px solid var(--color2);
+}
+#job-1{
+    margin-top: 5px;
+    padding: 10px;
+    border:1px solid var(--color5);
+}
+#job-2{
+    margin-top: 5px;
+    padding: 10px;
+    border:1px solid var(--color5);
+}
+#skills {
+    margin-top: 5px;
+    padding: 10px;
+    border:2px solid var(--color2);
+}
+
+/*internals of the main*/
+ul{
+    display: inline-block;
+    list-style: square;
+    margin-left: 25px;
+}
+
+/*footer*/
+footer {
+    background-color: var(--color1);
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    border:4px solid var(--color1);
+}
+
+/*Form*/
+h2.message-input{
+    text-align: center;
+}
+#send-message {
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+}
+form {
+    background-color: var(--color5);
+    width: 80%;
+    max-width:500px;
+    border:  5px solid var(--color6);
+    margin: 5%;
+    padding:5px;
+    text-align: left;
+}
+input, textarea, select{ 
+    width: 100%;
+    background-color: ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+input#submit {
+    background-color: aqua;
+}
+#footer-link{
+    color:aliceblue;
+}
+#footer-link:hover {
+    color:blue
+}
+
+/*Links properties below*/
+a {
+    text-decoration: none
+}
+
+a:link {
+    color: rgb(40, 40, 129) ;
+}
+
+a:hover {
+    color:blue
+}
+a:active {
+    color:rgb(87, 87, 255)
+}
+a:link#head{
+    color: azure;
+}
+/*Links properties above*/
+
