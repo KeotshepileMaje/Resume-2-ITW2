@@ -188,4 +188,11 @@ a:link#head{
 }
 /*Links properties above*/
 
-@
+@media only screen and (max-width:500px) {
+    body { box-sizing: border-box;}
+    .doc-content { display: contents;}
+    #left-part {display:flex;}
+    nav { margin-right: 1%;}
+    #contact-details { margin-left: 1%; }
+    #right-part { ;}
+}
