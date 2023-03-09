@@ -15,6 +15,7 @@
 }
 body {
     border:10px solid var(--color1);
+    width: fit-content;
 }
 h2 {
     color: ;
@@ -164,12 +165,12 @@ input#submit {
     color:aliceblue;
 }
 #footer-link:hover {
-    color:blue
+    color:blue;
 }
 
 /*Links properties below*/
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:link {
@@ -177,7 +178,7 @@ a:link {
 }
 
 a:hover {
-    color:blue
+    color:blue;
 }
 a:active {
     color:rgb(87, 87, 255)
@@ -187,3 +188,4 @@ a:link#head{
 }
 /*Links properties above*/
 
+@
