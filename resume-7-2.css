@@ -196,3 +196,8 @@ a:link#head{
     #contact-details { margin-left: 1%; }
     #right-part { ;}
 }
+@media only screen and (min-width:1000px) {
+    body { box-sizing: border-box;}
+    #head { display:flex}
+   
+}
