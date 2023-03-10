@@ -36,17 +36,15 @@ h3 {
     border:0px solid var(--color1);
 }
 .profile-pic {
-    border-radius: 50%;  
+    border-radius: 50%;
+    width:100%;
+    padding-top:5%;
+    padding-left:15%;
+    padding-right:15%;
 }
-#profile-pic-small{
-   
-}
-#profile-pic-medium{
-    
-}
-#profile-pic-big{
-   
-}
+.intro {
+    padding:5%;}
+h1 {padding-bottom: 2%;}
 
 /*Main part of the Document*/
 .doc-content {
@@ -161,6 +159,7 @@ input, textarea, select{
 input#submit {
     background-color: aqua;
 }
+/*Back to top*/
 #footer-link{
     color:aliceblue;
 }
@@ -188,16 +187,34 @@ a:link#head{
 }
 /*Links properties above*/
 
+/*media Quary*/
+/*mobile-screen display*/
 @media only screen and (max-width:500px) {
     body { box-sizing: border-box;}
     .doc-content { display: contents;}
+    .profile-pic {width:100%;
+        padding-top:5%;
+        padding-left:5%;
+        padding-right:5%;}
+    h1{margin:5%}
+    .intro {margin:5%;
+    text-align: center}
     #left-part {display:flex;}
     nav { margin-right: 1%;}
-    #contact-details { margin-left: 1%; }
-    #right-part { ;}
+    #contact-details { margin-left: 1%;}
 }
+/*media Quary*/
+/*Computer-screen display*/
 @media only screen and (min-width:1000px) {
     body { box-sizing: border-box;}
-    #head { display:flex}
-   
+    #head { display: grid;
+    grid-column: 1fr 1fr;
+    grid-template-columns:50% 50%;}
+    .profile-pic {width:100%;
+    padding:5%}
+    .intro {margin:5%;
+    padding-top: 10%;
+    justify-content: center;}
+    h1{margin:5%}
+
 }
