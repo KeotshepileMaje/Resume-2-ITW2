@@ -189,15 +189,15 @@ a:link#head{
 
 /*media Quary*/
 /*mobile-screen display*/
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:650px) {
     body { box-sizing: border-box;}
     .doc-content { display: contents;}
     .profile-pic {width:100%;
         padding-top:5%;
         padding-left:5%;
         padding-right:5%;}
-    h1{margin:5%}
-    .intro {margin:5%;
+    h1{margin-bottom;:5%}
+    .intro {margin-bottom:5%;
     text-align: center}
     #left-part {display:flex;}
     nav { margin-right: 1%;}
@@ -205,7 +205,7 @@ a:link#head{
 }
 /*media Quary*/
 /*Computer-screen display*/
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:1024px) {
     body { box-sizing: border-box;}
     #head { display: grid;
     grid-column: 1fr 1fr;
@@ -216,5 +216,4 @@ a:link#head{
     padding-top: 10%;
     justify-content: center;}
     h1{margin:5%}
-
 }
