@@ -205,6 +205,7 @@ a:link#head{
 }
 /*media Quary*/
 /*Computer-screen display*/
+/*the header can perhaps be a bit smaller, especially in the big computer screen size - coach comment*/ 
 @media only screen and (min-width:1024px) {
     body { box-sizing: border-box;}
     #head { display: grid;
